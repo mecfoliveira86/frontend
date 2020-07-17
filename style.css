@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+    font-family: 'Inconsolata', monospace, Arial, Helvetica;
+}
 li{
     list-style-type: circle;
+}
+h2{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    list-style-type: disc
+}
+
+#inicio{
+    background-color: bisque;
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    margin-left: 25%;
+}
+
+#contatos{
+    width: 33.3%;
+    align-self: center;
+    margin-left: 0%;
+}
+
+#contatos li{
+    text-align: center;
 }
