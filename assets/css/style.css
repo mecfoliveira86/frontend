@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+    font-family: 'Inconsolata', monospace, Arial, Helvetica;
+    background-color: #0099ff;
+    width: 95%;
+    font-size: 17px;
+}
+h1{font-size: 2em;
+text-align: center;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.25em;}
+h4{font-size: 1em;}
+h5{font-size: 0.9em;}
+h6{font-size: 0.8em;}
+p{font-size: 0.75em;}
+
+#inicio{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    margin-left: 25%;
+}
+
+.header{
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+}
+
+.header img {
+    width: 56%;
+    border-radius: 50%;
+}
+
+.logos{
+    box-sizing: border-box;
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    align-content: center;
+}
+
+.logos i{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.titulo{
+    
+    font-weight: bold;
+    list-style-type: disc
+}
+
+.item{
+    list-style-type:symbols("");
+}
+
+.tipoEstudo{
+    width: 33.3%;
+    float: left;
+}
+
+#profissional{
+    width: 100%;
+    float: left;
+}
+
+main{
+    width: 960px;
+    background-color:cornflowerblue; 
+}
+
+.margem{
+    margin-top: 30px;
+    text-align: center;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#hobbiesheader{
+    width: 960px;
+}
+
+aside{
+    display: block;
+    width: 300px;
+    float: left;
+    margin: auto;
+}
+
+#conteudo{
+    display: block;
+    width: 630px;
+    float: right;
+}
+
+footer{
+    width: 960px;
+    float: right;
+    display: inline-block;
+}
+
+input:focus {
+    background-color: azure;
+}
+
+textarea:focus{
+    background-color: azure;
+}
+
+
+
+input:active {
+    background-color: green;
+}
+
+textarea{
+    resize: vertical;
+    overflow: auto;
+}
+
+textarea:active{
+    background-color: green;    
+}
+
+a:hover{
+    background-color: burlywood;
+}
+
+i:hover{
+    background-color: burlywood;
+}
+
+.efeito img{
+    border-radius: 20px;
+    border-color: green;
+}
+
+.campo p{
+    font-size: 1em;
+}
+
+.campo{
+    border-top: darkblue;
+}
+
+.longo{
+    width: 80%;
+}
+
+.medio{
+    width: 30%;
+}
