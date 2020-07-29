@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <main>
+            <h1>Formulário de Contato</h1>
+            <div align="center">
+                <form action="" method="POST">
+                    <div class="campo">
+                        <p>Nome:<input class="longo" type="text" name="nome" placeholder="Nome e sobrenome" value="" required/></p>
+                        
+                    </div>
+                    <div class="campo">
+                        <p>E-mail:<input class="longo" type="email" name="email" placeholder="Seu e-mail" value="" required/></p>
+                        
+                    </div>
+                    <div class="campo">
+                        <p>Assunto: 
+                            <select class="medio" name="Assunto">
+                                <optgroup label="Esportes">
+                                    <option value="karate">Karatê</option>
+                                    <option value="kung fu">Kung Fu</option>
+                                    <option value="tkd">Tae Kwon Do</option>
+                                </optgroup>
+                
+                                <optgroup label="Artes">
+                                    <option value="escultura">Escultura</option>
+                                    <option value="desenho">Desenho</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                    
+                        
+                    </div>
+                    
+                    <div class="campo">
+                        <p>Gênero</p>
+                        <label>Masculino</label>
+                        <input type="radio" name="estado_civil" value="Masculino"/>
+                        <label>Feminino</label>
+                        <input type="radio" name="estado_civil" value="Feminino"/>
+                        <label>Prefiro não responder</label>
+                        <input type="radio" name="estado_civil" value="PNR"/>
+                    </div>
+        
+                    <div class="campo">
+                        <p>Passatempos</p>
+                        <label>Futebol</label>
+                        <input type="checkbox" name="hobbies" value="Futebol"/>
+                        <label>Dançar</label>
+                        <input type="checkbox" name="hobbies" value="Dançar"/>
+                        <label>Programar</label>
+                        <input type="checkbox" name="hobbies" value="Programar"/>
+                        <label>Cozinhar</label>
+                        <input type="checkbox" name="hobbies" value="Cozinhar"/>
+                        <label>Desenhar</label>
+                        <input type="checkbox" name="hobbies" value="Desenhar"/>
+                    </div>
+
+                    <div class="campo">
+                        <p>Comentários adicionais:</p>
+                        <textarea class="longo" name="comentarios" placeholder="Comentários" value="" required></textarea>
+                    </div>
+        
+                    
+                    <div align="center">
+                        <button class="medio" type="reset" name="button_excluir">Excluir</button>
+                        <button class="medio" type="submit" name="button_enviar">Enviar</button>
+                        <!--<button type="button" name="button_botao">Outra Ação</button>-->
+                    </div>
+        
+                    
+                </form>
+
+            </div>
+
+        
+        </main>
+        
+    </body>
+</html>
+<!--<label>Futebol</label>
+                <input type="checkbox" name="hobbies" value="Futebol"/>
+            <label>Dançar</label>
+                <input type="checkbox" name="hobbies" value="Dançar"/>
+            <label>Programar</label>
+            <input type="checkbox" name="hobbies" value="Programar"/>
+            
+            <label>Casado</label>
+                <input type="radio" name="estado_civil" value="Casado"/>
+            <label>Divorciado</label>
+                <input type="radio" name="estado_civil" value="Divorciado"/>
+            
+            <input type="password" name="senha" placeholder="Informe a sua Senha" value="" required/>
+
+            <select name="UF">
+                <optgroup label="Sul">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+
+                <optgroup label="Nordeste">
+                    <option value="BA">Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+
+                <optgroup label="Norte">
+                    <option value="PA">Pará</option>
+                    <option value="AM">Amazonas</option>
+                </optgroup>
+            </select>
+            <label>Perfil</label>
+            <textarea name="perfil" placeholder="Digite o seu perfil"></textarea>
+
+            <input type="submit" name="button" value="Input Enviar"/>-->
