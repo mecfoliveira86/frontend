@@ -1,24 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+*{box-sizing: border-box;}
+
 body{
-    background-color: blue;
-    font-family: sans-serif;
-    text-align: justify;
-    font-size: 14px;
+    font-family: 'Inconsolata', monospace, Arial, Helvetica;
+    background-color: #0099ff;
+    width: 95%;
+    font-size: 18px;
     line-height: 23px;
 }
 
-header{
-    background-color: brown;
+h1{font-size: 2em;
+text-align: center;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.25em;}
+h4{font-size: 1em;}
+h5{font-size: 0.9em;}
+h6{font-size: 0.8em;}
+p{font-size: 0.75em;}
+
+#inicio{
+    padding:10px;
+    text-align: center;
+    width: 75%;
+    align-self: center;
+    margin-left: 12.5%;
 }
 
-h1{
+.header{
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+}
+
+.header img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.logos{
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    align-content: center;
+}
+
+.logos a:hover{
+    background-color: burlywood;
+}
+
+.logos i{
+    display:inline-block;  
+    font-size: 2.5em;
     text-align: center;
 }
 
-h2{
-    font-weight: normal;
-    text-decoration-line: underline;
+.titulo{
+    font-weight: bold;
+    list-style-type: disc
 }
 
-li{
-    list-style-type:circle;
+.item{
+    list-style-type:symbols("");
+}
+
+.trescolunas{
+    width: 33.3%;
+    float: left;
+}
+
+.unico{
+    width: 100%;
+    float: left;
+}
+
+main{
+    width: 960px;
+}
+
+.margem{
+    margin-top: 30px;
+    text-align: center;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#hobbiesheader{
+    width: 960px;
+}
+
+aside{
+    display: block;
+    width: 300px;
+    float: left;
+    margin: auto;
+}
+
+#conteudo{
+    display: block;
+    width: 630px;
+    float: right;
+}
+
+footer{
+    width: 960px;
+    display: inline-block;
+}
+
+input:focus {
+    background-color: azure;
+}
+
+textarea:focus{
+    background-color: azure;
+}
+
+input:active {
+    background-color: green;
+}
+
+textarea{
+    resize: vertical;
+    overflow: auto;
+}
+
+textarea:active{
+    background-color: green;    
+}
+
+.efeito img{
+    border-radius: 20px;
+    border-color: green;
+}
+
+.efeito img:hover{
+    width: 220px;
+}
+
+.campo p{
+    font-size: 1em;
+}
+
+.campo{
+    border-top: darkblue;
+}
+
+.longo{
+    width: 80%;
+}
+
+.medio{
+    width: 30%;
+}
+
+title{
+    background-color: brown;
+    font-size: 1em;
 }
