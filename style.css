@@ -11,6 +11,11 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-weight: normal;
+    text-decoration-line: underline;
+}
+
 li{
     list-style-type:circle;
 }
