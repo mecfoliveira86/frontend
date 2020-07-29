@@ -1,6 +1,9 @@
 body{
     background-color: blue;
     font-family: sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
 }
 
 header{
