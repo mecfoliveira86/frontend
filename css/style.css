@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    width:100vw;
+    height: 0.2vh;
+    background-color: tomato;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    height: 20vh;
+    margin: 0 auto;
+    border: 1px dotted black;
+}
+
+h2{
+    font-size:1,75em;
+    color:grey;
+}
+
+.boxa{
+    width: 20.83%;
+    background-color: blue;
+    height: 20vh;
+}
+
+.boxb{
+    width: 66.67%;
+    background-color: red;
+    height: 20vh;
+    margin: 0 2.08%;
+}
+
+.boxc{
+    width: 8.33%;
+    background-color: black;
+    height: 20vh;
+}
+
+p{
+    font-size: 0.8125em;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+strong{
+    font-size: 0.9375em;
+    color:white;
+    font-weight: bold;
+}
+
+@media (max-width: 900px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width:95%;
+        padding:20px;
+        height: auto;
+    }
+
+    .boxa{
+        width: 40%;
+        float: left;
+        height: auto;
+    }
+
+    .boxb{
+        width: 55%;
+        height: auto;
+        float: right;
+        margin:0;
+    }
+
+    .boxc{
+        width: 96.75%;
+        height: auto;
+        padding:0
+    }
+
+}
+
+@media (max-width: 450px){
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .boxa,.boxb,.boxc{
+        width: 100%;
+        height: auto;
+        font-size: calc(1.3em);        
+    }
+}
